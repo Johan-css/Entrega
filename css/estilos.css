@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800;400&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.contenedor-logo{
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.contenedor-logo>img{
+    width: 200px;
+    position: relative;
+    margin-top: 10px;
+}
+p{
+    font-size: 1rem;
+}
+header{
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    margin-top: -50px;
+}
+nav{
+    float: right;
+}
+nav >ul>li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+nav >ul>li>a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 5px;
+    color: #3D434B;
+}
+.contactar{
+    background-color: #F54F47;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 30px;
+}
+.opening{
+    background-image: url("../assets/fondodelopening.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 35px;
+}
+.quienessomos{
+    background-color: #3D434B;
+    background-image: url("../assets/fondo-quienes-somos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 10rem;
+}
+.quienessomos>h2{
+    font-size: 4rem;
+    color: #fff;
+    display: block;
+    margin: auto;
+    max-width: 209px;
+}
+.separador{
+    max-width: 1200px;
+    margin: auto auto 3rem auto;
+}
+
+.separador>p{
+    color: #fff;
+    display: inline-block;
+    font-size: 22px;
+    position: absolute;
+    margin: 0 0 0 10px;
+}
+.nuestrosclientes{
+    background-image: linear-gradient(to bottom left, #F84C48, #E61A48);
+    padding: 10rem 0 16rem;
+}
+.contenedordemarcas{
+    max-width: 805px;
+    margin: auto;
+}
+.contenedordemarcas>.marcas , .contenedordemarcas>.titulo-marcas {
+    display: inline-block;
+}
+.contenedordemarcas>.marcas>img{
+    width: 400px;
+}
+.titulo-marcas{
+    width: 400px;
+}
+.contenedordemarcas>.titulo-marcas>h2{
+    font-size: 4rem;
+    color: #fff;
+    display: block;
+    margin: auto;
+    max-width: 209px;
+}
+.productos{
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+.productos>.separador>p{
+    color: #3D434B;
+}
+.computador{
+    width: 300px;
+    margin: auto;
+    display: block;
+    height: 240px;
+}
+.computador>img{
+    position: relative;
+    top: -180px;
+    width: 300px;
+}
+.contenedor-productosyservicios-iz>h2{
+    font-size: 4rem;
+    color: #F54F47;
+}
+.contenedor-productosyservicios-iz{
+    display: inline-block;
+    width: 50%;
+}
+.contenedor-productosyservicios-iz>p{
+    margin-bottom: 30px;
+}
+
+.boton-productos{
+    background-color: #F54F47;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+.contenedor-productosyservicios-id{
+    display: inline-block;
+    width: 49%;
+}
+.contenedor-productosyservicios-id>img{
+    width: 100%;
+}
+footer{
+    padding: 20px 0 0;
+    background-color: #3D434B;
+    margin-top: 80px;
+}
+.contenedor-footer{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom:20px;
+}
+.contenedor-footer>.logo{
+    position: relative;
+    margin-top: 40px;
+}
+.contenedor-logo-footer{
+    display: inline-block;
+    width: 69%;
+}
+.contenedor-redes{
+    display: inline-block;
+    width: 30%;
+}
+.redessociales{
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+.derechos{
+    background-color: #000;
+    padding: 10px 0;
+}
+.derechos>p {
+    text-align: center;
+    color: #fff;
+}
+
+
