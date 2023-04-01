@@ -1,0 +1,111 @@
+.opening{
+    background-image: url("../assets/fondodelopening.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: $elemento-centrado;
+}
+.carousel-item.active{
+    display: flex;
+    align-items: $elemento-centrado;
+}
+.contenedor-de-carrusel{
+    padding: 0px;
+}
+.contenedor-de-carrusel h2{
+    font-size: map-get($alturatexto, altura-h2);
+    font-weight: 800;
+    color: $color-blanco;
+}
+.primer-item{
+    height: 100vh;
+    background-color: $color-gris;
+    background-image: url("../assets/fondo-quienes-somos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.primer-item h2{
+    vertical-align: middle;
+}
+.segundo-item{
+    height: 100vh;
+    background-color: $color-amarillo;
+    background-image: url("../assets/fondo-quienes-somos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tercer-item{
+    height: 100vh;
+    background-color: $color-rojo;
+    background-image: url("../assets/fondo-quienes-somos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.seccion-clientes{
+    background-color: $color-rojo;
+    padding: 100px 0 300px 0;
+}
+.seccion-clientes h2{
+    font-size: map-get($alturatexto, altura-h2);
+    font-weight: 800;
+    color: $color-blanco;
+    margin: 80px 0 0 70px;
+}
+.seccion-clientes h2 span{
+    font-size: 40px;
+    font-weight: 800;
+}
+.seccion-clientes img{
+    max-width: 100%;
+    margin: 10px 0;
+}
+.ancho-de-marcas{
+    max-width: 870px;
+    margin-top: 90px;
+}
+.separador{
+    max-width: 1200px;
+    margin: auto auto 3rem auto;
+}
+
+.separador>p{
+    color: $color-blanco;
+    display: inline-block;
+    font-size: map-get($alturatexto, texto-separador);
+    position: absolute;
+    margin: 0 0 0 10px;
+}
+.separador-productosyservicios>p{
+    color: $color-gris;
+    display: inline-block;
+    font-size: map-get($alturatexto, texto-separador);
+    position: absolute;
+    margin: 0 0 0 10px;
+}
+.separador img{
+    margin: 0;
+}
+.computador{
+    position: relative;
+    margin-top: -220px;
+}
+.productosyservicios{
+    margin: 50px 0;
+}
+.productosyservicios h2, .productosyservicios-seccion h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: $color-gris;
+}
+.productosyservicios h2 span, .productosyservicios-seccion h2 span{
+    font-size: map-get($alturatexto, altura-h2);
+    font-weight: 800;
+    color: $color-rojo;
+}
+.contenedor-zorro img{
+    width: 100%;
+}

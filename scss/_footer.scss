@@ -1,0 +1,20 @@
+footer svg{
+    color: $color-blanco;
+    width: 40px;
+    height: 40px;
+}
+.color-footer1{
+    background-color: $color-gris;
+    padding: 20px 0;
+}
+.color-footer2{
+    background-color: $color-negro;
+    padding: 20px 0;
+}
+
+.color-footer2 p{
+    color: $color-blanco;
+    font-size: 1em;
+    margin:0;
+    padding: 0;
+}

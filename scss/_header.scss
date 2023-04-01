@@ -1,0 +1,32 @@
+.color-cabezote{
+    background-color: $color-blanco;
+    position: fixed;
+    z-index: 10;
+    padding: 10px 0;
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+        .nav .nav-item .nav-link{
+            color: $color-gris;
+            .boton{
+                background-color:$color-rojo;
+                color: $color-blanco;
+                border-radius: $borde-boton;
+                padding: 8px 30px;
+                text-decoration: $texto-nodecorado;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    .color-cabezote{
+        .mobile{
+            display: block;
+        }
+        .desktop{
+            display: none;
+        }
+    }
+}

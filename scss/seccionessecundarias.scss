@@ -1,0 +1,59 @@
+.titulodelapagina{
+    display: flex;
+    text-align: $elemento-centrado;
+    background-color: $color-gris;
+}
+.titulodelapagina .ancho{
+    max-width: 600px;
+    margin:110px auto 30px;
+}
+.titulodelapagina h1{
+    font-size: map-get($alturatexto, altura-h2);
+    font-weight: 800;
+    color: $color-blanco;
+    line-height: 45px;
+}
+.titulodelapagina h1 span{
+    font-size: 40px;
+    font-weight: 800;
+    color: $color-rojo;
+}
+.titulodelapagina p{
+    color: $color-blanco;
+    text-align: $elemento-centrado;
+}
+.titulodelapagina img{
+    width: 30px;
+    display: block;
+    margin: auto;
+}
+.productosyservicios-seccion{
+    margin: 0;
+}
+.productosyservicios-seccion .flecha{
+    width: 30px;
+    display: block;
+    margin: auto;
+}
+.contenedordeproductos{
+    background-color: $color-gris-oscuro;
+}
+.contenedordeproductos h3{
+    color: $color-amarillo;
+    font-weight: 800;
+}
+.contenedordeproductos p{
+    color: $color-blanco;
+}
+.contenedordeproductos a{
+    color: $color-blanco;
+    text-decoration: $texto-nodecorado;
+    border-radius: $borde-boton;
+    padding: 10px 30px;
+    border: solid 1px $color-blanco;
+    text-align: right;
+}
+.contenedordeproductos img{
+    width: 100%;
+    margin: 85px 0 30px;
+}
