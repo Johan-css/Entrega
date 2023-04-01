@@ -5,6 +5,12 @@
   border-radius: 20px;
   padding: 8px 30px;
   text-decoration: none;
+  transform: 0, 5s;
+}
+
+.boton:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .color-cabezote {
@@ -28,6 +34,10 @@
   border-radius: 20px;
   padding: 8px 30px;
   text-decoration: none;
+}
+.color-cabezote .desktop .nav .nav-item .nav-link .boton:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 @media only screen and (max-width: 991px) {

@@ -4,4 +4,10 @@
     border-radius: $borde-boton;
     padding: 8px 30px;
     text-decoration: $texto-nodecorado;
+    transform: 0,5s;
+}
+
+.boton:hover{
+    background-color:$color-negro;
+    color: $color-blanco;
 }

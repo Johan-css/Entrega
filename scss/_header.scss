@@ -16,6 +16,10 @@
                 border-radius: $borde-boton;
                 padding: 8px 30px;
                 text-decoration: $texto-nodecorado;
+                &:hover{
+                    background-color:$color-negro;
+                    color: $color-blanco;
+                }
             }
         }
     }
